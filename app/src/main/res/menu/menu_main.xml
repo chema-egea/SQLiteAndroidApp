@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="chema.egea.canales.EjercicioSQLite.MainActivity">
+    <item
+        android:id="@+id/action_createBackup"
+        android:orderInCategory="100"
+        android:title="Crear Backup"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_restoreBackup"
+        android:orderInCategory="100"
+        android:title="Restaurar Backup"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_userManagement"
+        android:orderInCategory="100"
+        android:title="Gestión de Usuarios"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

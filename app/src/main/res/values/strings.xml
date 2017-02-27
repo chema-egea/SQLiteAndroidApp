@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ejercicio SQLite</string>
+    <string name="action_settings">Opciones</string>
+    <string name="title_activity_user_management">userManagement</string>
+    <string name="title_activity_actualizar_usuario">Actualizar Usuario</string>
+    <string name="title_activity_nuevo_usuario">Nuevo Usuario</string>
+    <string name="title_activity_bienvenido_usuario">Bienvenido Usuario</string>
+
+
+    <string-array name="ubicacionBackup">
+        <item>Interno</item>
+        <item>Tarjeta SD</item>
+    </string-array>
+    <string-array name="codigoBackup">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="title_activity_preferencias_aplicacion">PreferenciasAplicacion</string>
+    <string name="title_activity_verificacion_usuario_sms">VerificacionUsuarioSMS</string>
+
+</resources>

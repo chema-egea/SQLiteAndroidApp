@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="opcionNombreBD"
+        android:title="Nombre BD"
+        android:summary="Nombre de la base de datos de la app"
+        android:dialogTitle="Introduce nuevo nombre"
+        />
+
+    <ListPreference
+        android:key="opcionUbicacion"
+        android:title="Ubicación Backup"
+        android:summary="Localización de los backup de la BD"
+        android:dialogTitle="Indicar Ubicación"
+        android:entries="@array/ubicacionBackup"
+        android:entryValues="@array/codigoBackup"
+        android:defaultValue="0"
+        />
+
+    <CheckBoxPreference
+        android:key="opcionVersionBD"
+        android:title="Actualizar Versión"
+        android:summary="Actualizar la BD a una nueva versión. Cambio Irreversible." />
+
+</PreferenceScreen>
